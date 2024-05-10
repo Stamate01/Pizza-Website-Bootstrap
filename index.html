@@ -16,7 +16,7 @@
     <title>Pizza Italy</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-xl bg-light">
       <div class="container">
         <a href="#" class="navbar-brand">
           <img src="images/logopizza.png" alt="" width="100" />
@@ -24,7 +24,7 @@
         <button
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="navbarDropdown"
+          data-bs-target="#navbarDropdown"
           class="navbar-toggler"
         >
           <span class="navbar-toggler-icon"></span>
@@ -36,16 +36,16 @@
               <a href="#" class="nav-link mx-3 active">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link mx-3">Recipes</a>
+              <a href="#benefits" class="nav-link mx-3">Benefits</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link mx-3">Blog</a>
+              <a href="#popular" class="nav-link mx-3">Popular Pizzas</a>
+            </li>
+            <li class="nav-item">
+              <a href="#reviews" class="nav-link mx-3">Reviews</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link mx-3">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link mx-3">About Us</a>
             </li>
             <li class="nav-item">
               <a
@@ -60,9 +60,9 @@
     </nav>
 
     <section class="mt-5">
-      <div class="container">
+      <div class="container section1">
         <div class="row">
-          <div class="col-lg-6 col-md-12">
+          <div class="col-xl-6 col-lg-12">
             <p class="lead fst-italic">Hallo Pizza Enthusiasts!</p>
             <h1 class="lh-sm fst-italic">
               Italian
@@ -78,26 +78,23 @@
               <button class="btn btn-outline-primary">Order Now</button>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12">
+          <div class="col-xl-3 text-end media-query">
             <img
-              src="images/pizza4.jpg"
+              src="images/img-for-oven.jpg"
               alt=""
-              class="img-fluid rounded-image mb-2"
+              class="img-fluid little-image mb-4"
             />
             <img
               src="images/pizza2.jpg"
               alt=""
+              class="img-fluid little-image mb-3"
+            />
+          </div>
+          <div class="col-xl-3 media-query">
+            <img
+              src="images/oven-img.jpg"
+              alt=""
               class="img-fluid rounded-image mb-2"
-            />
-            <img
-              src="images/pizza3.jpg"
-              alt=""
-              class="img-fluid rounded-image"
-            />
-            <img
-              src="images/pizza6.jpg"
-              alt=""
-              class="img-fluid rounded-image"
             />
           </div>
         </div>
@@ -113,15 +110,15 @@
           <h3>Why Should You Choose Us?</h3>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-12">
             <div class="card rounded-5 text-center my-6 border-0">
               <i class="fa-solid fa-tag fa-4x text-primary mt-4"></i>
               <div class="card-body">
                 <h5 class="card-title">Fresh Ingredients</h5>
                 <p class="card-text">
                   We source only the freshest ingredients to create our pizzas,
-                  ensuring each bite is the best quality you can
-                  taste in every slice.
+                  ensuring each bite is the best quality you can taste in every
+                  slice.
                 </p>
                 <div class="card-footer bg-transparent border-0">
                   <a href="#" class="btn btn-outline-primary">View Details</a>
@@ -129,7 +126,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-12 margin-vertical-cards">
             <div class="card rounded-5 text-center my-6 border-0">
               <i class="fa-solid fa-pizza-slice fa-4x text-primary mt-4"></i>
               <div class="card-body">
@@ -145,11 +142,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-12 margin-vertical-cards">
             <div class="card rounded-5 text-center my-6 border-0">
               <i class="fa-solid fa-circle-check fa-4x text-primary mt-4"></i>
               <div class="card-body">
-                <h5 class="card-title">Customizable Creations</h5>
+                <h5 class="card-title">Customizable Pizzas</h5>
                 <p class="card-text">
                   We allow you to personalize every aspect from toppings to
                   crust, for a truly unique dining experience.

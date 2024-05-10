@@ -27,5 +27,28 @@
 
 .rounded-image {
   border-radius: 40px;
-  width: 250px;
+  width: 260px;
+}
+
+.little-image {
+  border-radius: 40px;
+  width: 275px;
+}
+
+@media (max-width: 1199px) {
+  .media-query {
+    display: none;
+  }
+  .section1 {
+    text-align: center;
+  }
+  .section1 .hstack {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 991px) {
+  .margin-vertical-cards {
+    margin-top: -11rem;
+  }
 }
