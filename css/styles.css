@@ -25,6 +25,11 @@
   transition-duration: 0.4s;
 }
 
+@media (max-width: 1199px) {
+  .custom-position {
+    margin-top: 1rem;
+  }
+}
 @media (max-width: 991px) {
   .margin-vertical-cards {
     margin-top: 2rem;
